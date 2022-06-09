@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/qr-code-gen-youth-info/static/css/main.cf5c7e67.css",
+    "main.js": "/qr-code-gen-youth-info/static/js/main.d4108c40.js",
+    "static/js/787.4260b14a.chunk.js": "/qr-code-gen-youth-info/static/js/787.4260b14a.chunk.js",
+    "index.html": "/qr-code-gen-youth-info/index.html",
+    "main.cf5c7e67.css.map": "/qr-code-gen-youth-info/static/css/main.cf5c7e67.css.map",
+    "main.d4108c40.js.map": "/qr-code-gen-youth-info/static/js/main.d4108c40.js.map",
+    "787.4260b14a.chunk.js.map": "/qr-code-gen-youth-info/static/js/787.4260b14a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf5c7e67.css",
+    "static/js/main.d4108c40.js"
+  ]
+}
