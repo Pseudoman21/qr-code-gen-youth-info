@@ -6,6 +6,7 @@ function App () {
   const [position, setPosition] = useState('KK Member')
   const [initial, setInit] = useState('!')
   const [idNum, setIdNum] = useState('')
+  const [emergencyNum, setemergencyNum] = useState('')
   const [birthDay, setBirthDay] = useState('')
   const [phoneNum, setPhoneNum] = useState('')
   const [expDate, setExpDate] = useState('Dec 31, 2022')
@@ -27,7 +28,7 @@ function App () {
   function handleClick () {
     // let date = awardDate.toString();
     // console.log(awardDate);
-    let awardInfo = `YOUTH IDENTIFICATION QR CODE  %0A BRGY. GAPO%0A Fullname: ${youthName}%0A Designation: ${position}%0A Phone number: ${phoneNum}%0A Birthdate: ${birthDay}%0A ID Number: ${idNum} %0A Expiration Date: ${expDate}`
+    let awardInfo = `YOUTH IDENTIFICATION QR CODE  %0A BRGY. GAPO%0A Fullname: ${youthName}%0A Designation: ${position}%0A Phone number: ${phoneNum}%0A In case of emergency: ${emergencyNum}%0A Birthdate: ${birthDay}%0A ID Number: ${idNum} %0A Expiration Date: ${expDate}`
     // let awardInfo = `
     setInit("");
     setWord(awardInfo)
@@ -57,6 +58,22 @@ function App () {
                     setPhoneNum(e.target.value)
                   }}
                   placeholder='Phone Number'
+                />
+                <br />
+                <input
+                  type='text'
+                  onChange={e => {
+                    setemergencyNum(e.target.value)
+                  }}
+                  placeholder='In case of emergency'
+                />
+                <br />
+                <input
+                  type='text'
+                  onChange={e => {
+                    setPosition(e.target.value)
+                  }}
+                  placeholder='Position, KK Member by default'
                 />
                 <br />
                 <input
